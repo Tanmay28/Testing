@@ -1,0 +1,18 @@
+Tanmay.enabled = true
+Keerthi.enabled = true
+
+[Tanmay]
+files = file_P1.py
+bears = SpaceConsistencyBear, LineLengthBear, PyUnusedCodeBear, PyLintBear
+use_spaces = True
+max_line_length = 79
+pylint_disable = all
+pylint_enable = C0326
+
+[Keerthi]
+files = notepad.py
+bears = SpaceConsistencyBear, LineLengthBear, PyUnusedCodeBear, PyLintBear
+use_spaces = True
+max_line_length = 79
+pylint_disable = all
+pylint_enable = C0326
